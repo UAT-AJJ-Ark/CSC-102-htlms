@@ -1,6 +1,6 @@
-                                                <!-- Alex Johnson,11.9.25-->
+                                                <!-- Alex Johnson,11.11.25-->
                                               <!-- DocType is the first tag on the page and it tells  the browers that this is an HTML5 page-->
-<!DocType html>
+<!DocType html>                               <!-- this is an HTML comment -->
                                                            <!--The html tag goes next -->
   <html>
                                                 <!-- The Head section has info for the brower and search engine-->
@@ -8,10 +8,16 @@
       <title>CSC102 Boards Page</title>
     </head>
                                                      <!--the body section holds the text and images that we want to show the user-->
-  
-      <h1>Welcome to my Boards Page</h1>
-   <body background="pics/Game dev background.png">
-      
+      <header>
+      <h1><center>Welcome to my Boards Page</center></h1><!-- Center Welcome msg-->
+      </header><!-- OPEN AND CLOSED HEADER TO ONLY INCULDE WELCOME MSG-->
+       <nav><!-- create a nav section to hold the menu-->
+                        <a href = "Index.html">Home</a>
+                        <br>
+                        <a href = "Boards.html">Boards</a>
+                    </nav>
+   <body background="pics/Game dev background.png"><!-- Added a background img that is to big and cant reformat throught Html, leaving this here till i get to css to resize 
+                                                            this background img-->  
           <table border = "5" width = "80%" align="Center"cellpadding="15" > <!-- create border with starting width 100%->80%, added celling padding to give 
                                                               space between obj line and left wall of the border-->
         <tr> <!-- tr = table row-->
@@ -35,8 +41,12 @@
         </tr>
       </table>
   
-                                                                                   <!--P is Paragraph tag; has spacing around it by default-->
-        <p>
-        </p>
+      <footer>
+            Alex Johnson<br>
+            University of Advancing Technology<br>
+            2625 W. BASELINE RD.  <br>
+            TEMPE, AZ 85283<br>
+
+      </footer>
   </body>
   </html>
