@@ -1,0 +1,73 @@
+/*
+declaration block:
+
+selctor {
+    property: value;
+    property2 value;
+}
+*/
+body
+{
+   background-image: url("pics/Game dev background.png");
+   background-size: cover; /* makes the image fill the screen */
+   background-repeat: no-repeat;/* prevents tile patterns */
+   background-attachment: fixed;/* keeps image still while scrolling */
+   background-position: center;/* centers the image */
+
+}
+
+nav/*adds black sidebar under the nav links*/
+{
+    height: 600px;
+    width: 35px;
+    float:  left;
+    padding: 50px;
+    line-height: 30px;
+    background-color: black;
+}
+nav a {
+    display: block;
+    color: whitesmoke;
+    text-decoration:none;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 4px solid white;
+    border-radius: 5px;
+}
+nav a:hover {
+    background-color: #333;
+    color: cyan;
+    border-color: cyan;     /* border glows when hovered */
+    transform: scale(1.05); /* slight pop-out effect */
+}
+nav a.active {
+    background-color: rgb(255, 51, 0);
+    color: black;
+    border-color: white;
+}
+
+
+
+footer
+{
+    text-align: center;
+    margin-right: 200px;
+
+}
+
+#MemeImage
+{
+    margin-right: 200px;
+    width: 400px;
+}
+
+h1
+{
+    text-align: center;
+}
+.content-box {
+    background-color: rgba(240, 235, 235, 0.85); 
+    padding: 20px;
+    margin: 20px 40px;
+    border-radius: 10px;
+}
